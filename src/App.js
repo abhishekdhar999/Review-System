@@ -6,7 +6,6 @@ import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <>
-    <h1>Reviews</h1>
       <ReviewList />
     </>
   );

@@ -18,6 +18,8 @@ export default function ReviewList() {
   return (
     <>
       <div>
+
+        <h1 className='text-3xl font-bold text-center my-12 '>React App for Review Sentiment Analysis</h1>
       {reviews.map((review, index) => (
        <ReviewModal review={review} index={index}></ReviewModal>
       ))}
